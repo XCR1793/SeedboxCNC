@@ -15,26 +15,68 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XT3vK_XLpyIWme871qxz-1" value="Single Frame, CNC, Laser Cutter &amp;amp; 3D Printer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="XT3vK_XLpyIWme871qxz-1" value="Stackable CNC, 3D Printer, Laser Cutter/Engraver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="170" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XT3vK_XLpyIWme871qxz-2" value="CNC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="320" width="200" height="200" as="geometry" />
+          <mxGeometry x="440" y="340" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="XT3vK_XLpyIWme871qxz-3" value="3D Printer / Laser Cutter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="120" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MVqn7Z_dqOaO2EA2FJyq-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="650" y="120" width="20" height="400" as="geometry" />
+          <mxGeometry x="650" y="120" width="20" height="420" as="geometry" />
         </mxCell>
         <mxCell id="MVqn7Z_dqOaO2EA2FJyq-3" value="1.6m" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="310" width="60" height="20" as="geometry" />
+          <mxGeometry x="680" y="320" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MVqn7Z_dqOaO2EA2FJyq-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=south;" vertex="1" parent="1">
           <mxGeometry x="440" y="90" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MVqn7Z_dqOaO2EA2FJyq-6" value="0.8m" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-10" value="CNC Requirements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-11" value="300 x 300 x 300 Work Space" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-10">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-12" value="0.1 or 0.01mm Precision" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-10">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-13" value="6 Axis Tooling" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-10">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-25" value="Sub 2K Build" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-10">
+          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-15" value="Laser Cutter Requirements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-16" value="Interchange with 3D Printer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-15">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-17" value="Aluminium Engraving" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-15">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-24" value="Sub 300 Addon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-15">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-19" value="3D Printer Requirements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-20" value="RAVEN 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-19">
+          <mxGeometry y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-21" value="Ultra High Speed Fabrication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-19">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-23" value="Sub 2K Build" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="MVqn7Z_dqOaO2EA2FJyq-19">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVqn7Z_dqOaO2EA2FJyq-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
